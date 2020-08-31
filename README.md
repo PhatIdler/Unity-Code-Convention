@@ -21,6 +21,7 @@
 [SerializedField]
 private Gameobject _playerPrefab;
 ```
+![Alt text](Images/scene-structure.png?raw=true "Scene Structure")
 ## Unity проект
 - Версия Unity **2019.4.9f1**
 - Версия API **.NET 4.x**
