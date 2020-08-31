@@ -44,12 +44,18 @@ private Gameobject _playerPrefab;
 - Sprites
 ### Структура сцены
 ![Alt text](Images/scene-structure.png?raw=true "Scene Structure")
+1. **SETUP** содержит все *Monobehavior* скрипты, которые управляют общим состоянием игры
+2. **UI** содержит UI игры
+3. **WORLD** содержит все остальные объекты игры
+### Структура GameObject'а
+- 
 ### Оптимизация
 - По возможности, спрайты должны собираться в **Sprite Atlas** внутри Unity
 
 ### Часто используемые библиотеки
 - [Dotween](http://dotween.demigiant.com/) (твины)
 - [Spine](http://en.esotericsoftware.com/spine-unity-download) (анимация)
+- [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 ## Контроль версий
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/).
 > GUI [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
