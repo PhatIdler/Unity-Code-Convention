@@ -9,11 +9,18 @@
 - Все скрипты должны иметь **namespace** в виде **SabGames.НазваниеПроекта**
 - Модификаторы доступа (*public*, *private*, *protected*), должны быть прописаны везде
 - Все *private* и *protected* переменные должны начинаться со знака подчеркивания
-```
-private int _hp;
-```
 - Вместо прямого прописывания типа, следует использовать **var**
+- Для string переменных следует использовать [интерполяцию](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
+
 - Колбеки Unity (*Start*, *Update*, *OnEnable*, *OnDisable* и т.д.) должны быть прописаны до основных методов скрипта
+- Если для поля требуется доступ через Unity инспектор, следует использовать атрибут **[SerializedField]**, а само поле оставить **private**
+- Атрибут **[SerializedFiled]** прописывается в одной строке с переменной к которой он относится, а не сверху
+```
+[SerializedField] private Gameobject _playerPrefab;
+
+[SerializedField]
+private Gameobject _playerPrefab;
+```
 ## Unity проект
 - Версия Unity **2019.4.9f1**
 - Версия API **.NET 4.x**
