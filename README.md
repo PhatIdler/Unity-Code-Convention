@@ -69,3 +69,4 @@ private Gameobject _playerPrefab;
 - В начале каждого описания прописывается основная цель коммита в форме инфинитива (**Add** | **Update** | **Remove** | **Fix** и т.д.)
 - Используемый [Gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore) файл
 - Используется [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- Если для запуска проекта требуются определенные действия, это должно быть прописано в read.me файле проекта
