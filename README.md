@@ -58,7 +58,7 @@ private Gameobject _playerPrefab;
 - [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 ## Контроль версий
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/).
-> GUI [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
+> Git GUI [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
 
 - Для описания коммитов используется только английский язык
 - Описание коммитов должно быть коротким
