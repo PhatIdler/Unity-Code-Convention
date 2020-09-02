@@ -1,4 +1,4 @@
-# Unity Project's Standards
+# Unity Project Standards
 Стандарты разработки Unity проектов
 ## Оглавление
 - [Код](#код)
