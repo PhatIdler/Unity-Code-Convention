@@ -75,6 +75,7 @@
 - [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 - [Retrofit4Unity](https://github.com/sp958857/Retrofit4Unity) (Retrofit клиент)
 ## Контроль версий
+![Alt text](Images/fork.png?raw=true "Fork")
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/)
 > Git GUI: [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
 
