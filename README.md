@@ -49,7 +49,7 @@
 - SFX
 - Sprites
 ### Структура сцены
-![Alt text](Images/scene-structure.png?raw=true "Scene Structure")
+![Alt text](Images/scene-structure.png "Scene Structure")
 1. **SETUP** содержит все *Monobehavior* скрипты, которые управляют общим состоянием игры
 2. **UI** содержит UI игры
 3. **WORLD** содержит все остальные объекты игры
