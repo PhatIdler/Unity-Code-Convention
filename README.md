@@ -31,7 +31,7 @@
 - Scripting Backend **IL2CPP**
 - Минимальная версия API для Андроид **19**
 - Минимальная версия API для iOS **10.0**
-- [Лого](Images/logo.png?raw=true) для сплеш скрина
+- [Лого](Images/logo.png) для сплеш скрина
 ### Структура папок проекта
 Все сторонние библиотеки должны помещаться в папку **3rd Party**. Никакие файлы сторонних библиотек не должны модифицироваться, если требуется модификация, файл необходимо скопировать.
 
@@ -54,12 +54,12 @@
 2. **UI** содержит UI игры
 3. **WORLD** содержит все остальные объекты игры
 ### Структура Canvas
-![Alt text](Images/canvas-structure.png?raw=true "Canvas Structure")
+![Alt text](Images/canvas-structure.png "Canvas Structure")
 - Элементы внутри канваса следует помещать в логические холдеры. 
 - *Render mode* устанавливается в *Screen Space - Overlay*. Если необходимо несколько камер, то в *Screen Space Camera*
 - *UI Scale Mode* устанавливается в *Scale With Screen Size*. *Match* зависит от ориентации экрана игры и его UI элементов
 ### Структура GameObject'а
-![Alt text](Images/gameobject-structure.png?raw=true "GameObject Structure")
+![Alt text](Images/gameobject-structure.png "GameObject Structure")
 - Визуальные компоненты префабов (анимация, *spriterenderer*, частицы и т.д.) не должны находится на самом верхнем уровне иерархии объекта
 ### Разное
 - Основная механика игры не должна быть реализована через *Canvas*
@@ -75,7 +75,7 @@
 - [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 - [Retrofit4Unity](https://github.com/sp958857/Retrofit4Unity) (Retrofit клиент)
 ## Контроль версий
-![Alt text](Images/fork.png?raw=true "Fork")
+![Alt text](Images/fork.png "Fork")
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/)
 > Git GUI: [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
 
