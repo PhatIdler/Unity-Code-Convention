@@ -56,6 +56,8 @@
 ### Структура Canvas
 ![Alt text](Images/canvas-structure.png?raw=true "Canvas Structure")
 - Элементы внутри канваса следует помещать в логические холдеры. 
+- *Render mode* устанавливается в *Screen Space - Overlay*. Если необходимо несколько камер, то в *Screen Space Camera*
+- *UI Scale Mode* устанавливается в *Scale With Screen Size*. *Match* зависит от ориентации экрана игры и его UI элементов
 ### Структура GameObject'а
 ![Alt text](Images/gameobject-structure.png?raw=true "GameObject Structure")
 - Визуальные компоненты префабов (анимация, *spriterenderer*, частицы и т.д.) не должны находится на самом верхнем уровне иерархии объекта
