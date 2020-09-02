@@ -53,6 +53,9 @@
 1. **SETUP** содержит все *Monobehavior* скрипты, которые управляют общим состоянием игры
 2. **UI** содержит UI игры
 3. **WORLD** содержит все остальные объекты игры
+### Структура Canvas
+![Alt text](Images/canvas-structure.png?raw=true "Canvas Structure")
+- Элементы внутри канваса следует помещать в логические холдеры. 
 ### Структура GameObject'а
 ![Alt text](Images/gameobject-structure.png?raw=true "GameObject Structure")
 - Визуальные компоненты префабов (анимация, *spriterenderer*, частицы и т.д.) не должны находится на самом верхнем уровне иерархии объекта
