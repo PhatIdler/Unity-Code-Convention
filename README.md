@@ -1,5 +1,6 @@
 # SAB Games Code Convention
-Документация проектов
+Стандарты разработки Unity проектов
+## Оглавление
 - [Код](#код)
 - [Unity проект](#unity-проект)
 - [Контроль версий](#контроль-версий)
@@ -17,12 +18,6 @@
 - Колбеки Unity (*Start*, *Update*, *OnEnable*, *OnDisable* и т.д.) должны быть прописаны до основных методов скрипта
 - Если для поля требуется доступ через Unity инспектор, следует использовать атрибут **[SerializedField]**, а само поле оставить **private**
 - Атрибут **[SerializedFiled]** прописывается в одной строке с переменной к которой он относится, а не сверху
-```
-[SerializedField] private Gameobject _playerPrefab;
-
-[SerializedField]
-private Gameobject _playerPrefab;
-```
 
 ## Unity проект
 - Версия Unity **2019.4.9f1**
@@ -63,7 +58,7 @@ private Gameobject _playerPrefab;
 - [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 ## Контроль версий
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/).
-> Git GUI [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
+> Git GUI: [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
 
 - Для описания коммитов используется только английский язык
 - Описание коммитов должно быть коротким
