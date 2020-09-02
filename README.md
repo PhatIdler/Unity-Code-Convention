@@ -1,5 +1,6 @@
 # SAB Games Code Convention
-Документация проектов
+Стандарты разработки Unity проектов
+## Оглавление
 - [Код](#код)
 - [Unity проект](#unity-проект)
 - [Контроль версий](#контроль-версий)
@@ -17,17 +18,13 @@
 - Колбеки Unity (*Start*, *Update*, *OnEnable*, *OnDisable* и т.д.) должны быть прописаны до основных методов скрипта
 - Если для поля требуется доступ через Unity инспектор, следует использовать атрибут **[SerializedField]**, а само поле оставить **private**
 - Атрибут **[SerializedFiled]** прописывается в одной строке с переменной к которой он относится, а не сверху
-```
-[SerializedField] private Gameobject _playerPrefab;
-
-[SerializedField]
-private Gameobject _playerPrefab;
-```
 
 ## Unity проект
+Настройки проекта:
 - Версия Unity **2019.4.9f1**
 - Версия API **.NET 4.x**
 - Scripting Backend **IL2CPP**
+- [Лого]()
 ### Структура папок проекта
 Все сторонние библиотеки должны помещаться в папку **3rd Party**. Никакие файлы сторонних библиотек не должны модифицироваться, если требуется модификация, файл необходимо скопировать.
 
@@ -50,7 +47,8 @@ private Gameobject _playerPrefab;
 2. **UI** содержит UI игры
 3. **WORLD** содержит все остальные объекты игры
 ### Структура GameObject'а
-- 
+![Alt text](Images/gameobject-structure.png?raw=true "GameObject Structure")
+- Префаб
 ### Оптимизация
 - Любые одинаковые *GameObject'ы*, которые используются в нескольких экземплярах, лучше сделать префабом. Если необходимо, возможно использовать **Prefab Variant**
 - Если какое-то UI окно требуется вызывать в нескольких сценах (настройки, инапы), его следует поместить в отдельную сцену и загружать эту сцену как аддитивную, поверх существующей
@@ -62,7 +60,7 @@ private Gameobject _playerPrefab;
 - [BGCurve](https://www.bansheegz.com/BGCurve/) (сплайн)
 ## Контроль версий
 Для контроля версий используется git. Наш [сервер](http://git2.sablab.org/).
-> Git GUI [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
+> Git GUI: [Source Tree](https://www.sourcetreeapp.com/), [Fork](https://git-fork.com/)
 
 - Для описания коммитов используется только английский язык
 - Описание коммитов должно быть коротким
