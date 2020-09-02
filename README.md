@@ -15,6 +15,8 @@
 - Для string переменных следует использовать [интерполяцию](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
 - Блоки *if* всегда заключаются в фигурные скобки
 - Если проекта не заточен на WebGL сборку, возможно использование *async/await* без плагинов
+- Не используется ключевое слово **this**
+- Не используется ссылка на *gameObject* при вызове его членов из *Monobehavior* класса (*gameObject.transform*, *gameObject.Destroy()* и т.д.)
  
 - Колбеки Unity (*Start*, *Update*, *OnEnable*, *OnDisable* и т.д.) должны быть прописаны до основных методов скрипта
 - Если для поля требуется доступ через Unity инспектор, следует использовать атрибут **[SerializedField]**, а само поле оставить **private**
